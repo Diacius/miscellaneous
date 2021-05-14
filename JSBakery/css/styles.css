@@ -1,0 +1,29 @@
+#start {
+  background-color: green;
+}
+
+#stop {
+  background-color: red;
+}
+
+#sell {
+  background-color: orange;
+}
+
+#upgradeBakerySpeed {
+  background-color: blue;
+}
+
+#magic, #upgradeMagic {
+  background-color: purple;
+}
+button {
+  color: white;
+  font-size: 0.8em;
+  margin: 0.2rem;
+}
+
+#shelf {
+  height: variable;
+  background-color: #F2A531;
+}
