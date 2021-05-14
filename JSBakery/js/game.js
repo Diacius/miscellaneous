@@ -1,13 +1,13 @@
 var currentLoaves = 0;
 var currentCash = 0;
-var bakerySpeedElement = document.getElementById("bakerySpeed")
+var bakerySpeedElement = document.getElementById("bakerySpeed");
 var shelfElement = document.getElementById("shelf");
-var loavesElement = document.getElementById("loaves")
-var cashElement = document.getElementById("cash")
-var magicMultiplierElement = document.getElementById("magicMultiplier")
-var bakerySpeed = 500
-var shelfCapacity = 100
-var magicMultiplier = 1
+var loavesElement = document.getElementById("loaves");
+var cashElement = document.getElementById("cash");
+var magicMultiplierElement = document.getElementById("magicMultiplier");
+var bakerySpeed = 500;
+var shelfCapacity = 100;
+var magicMultiplier = 1;
 
 function makeBread() {
 
@@ -25,7 +25,7 @@ function sellLoaves() {
 }
 
 function startBakery() {
-	baking = setInterval(makeBread, bakerySpeed)
+	baking = setInterval(makeBread, bakerySpeed);
 }
 
 function stopBakery() {
@@ -43,7 +43,8 @@ function upgradeBakerySpeed() {
 		if (currentCash >= 100) {
 			currentCash = currentCash - 100;
 			bakerySpeed = bakerySpeed - 50;
-			clearInterval(baking)
+			clearInterval(baking);
+			baking = setInterval(makeBread, bakerySpeed);
 		}
 
 	}
