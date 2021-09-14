@@ -9,7 +9,3 @@ Projects here:
 [JSBakery](https://github.com/Diacius/miscellaneous/tree/main/JSBakery)
 
 A very silly game I made to refresh my JavaScript knowledge
-
-[RollingReminder](https://github.com/Diacius/miscellaneous/tree/main/RollingReminder)
-
-Setup regular reminders to do things. Such as drink water or stand up and walk around.
