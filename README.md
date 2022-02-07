@@ -5,7 +5,4 @@ This is the repository I use for small projects that don't need a repository of 
 Miscellaneous code.
 
 Projects here:
-
-[JSBakery](https://github.com/Diacius/miscellaneous/tree/main/JSBakery)
-
-A very silly game I made to refresh my JavaScript knowledge
+JS Bakery has moved to its own repo :)
